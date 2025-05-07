@@ -1,0 +1,12 @@
+# Ignorar pasta de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de ambientes virtuais (caso você use venv)
+env/
+venv/
+ENV/
+
+# Ignorar arquivos de backup
+*.bak
+*.swp
