@@ -1,3 +1,4 @@
-from utilidadesCeV import moeda
-p = float(input('Digite o preço: R$'))
+from utilidadesCeV import moeda, dado
+
+p = dado.leiadinheiro('Digite o preço: R$')
 moeda.resumo(p, 18, 32)
